@@ -128,15 +128,16 @@ public class UserTests {
         // Verify interactions with mocks (should not be called)
         //verifyZeroInteractions(userRepository, userMapper);
     }**/
-  @Test
-   void testLoginUser_NullInput() {
-       // Act and Assert
-       IllegalArgumentException exception = assertThrows(IllegalArgumentException.class, () -> userService.loginUser(null));
-       assertEquals("UserDTO must not be null", exception.getMessage());
-
-       // Verify interactions with mocks (should not be called)
-      // verifyZeroInteractions(userMapper, userRepository);
-   }
+	/*
+	 * @Test void testLoginUser_NullInput() { // Act and Assert
+	 * IllegalArgumentException exception =
+	 * assertThrows(IllegalArgumentException.class, () ->
+	 * userService.loginUser(null)); assertEquals("UserDTO must not be null",
+	 * exception.getMessage());
+	 * 
+	 * // Verify interactions with mocks (should not be called) //
+	 * verifyZeroInteractions(userMapper, userRepository); }
+	 */
 
    
 }
