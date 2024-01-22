@@ -16,7 +16,7 @@ jobs:
         uses: docker/login-action@v3
         with:
           username: anitaswain229
-          password: ${{ secrets.DOCKER_PASSWORD }}
+          password: -dckr_pat_PsQF2eKCutTJOlh1rtHkbqaEkDc
 
       - name: Set up Docker Buildx
         uses: docker/setup-buildx-action@v3
