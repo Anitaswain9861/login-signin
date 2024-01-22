@@ -36,4 +36,4 @@ jobs:
           context: .
           push: true
           target: production
-          tags: anitaswain229/login-signin.git:v1.0.0
+          tags: anitaswain229/login-signin.git:latest
